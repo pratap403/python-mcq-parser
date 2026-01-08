@@ -1,0 +1,1345 @@
+[
+  {
+    "question_no": 1,
+    "question": "Assume that source S and destination D are connected through two intermediate routers labeled R. Determine how many times each packet has to visit the network layer and the data link layer during a transmission from S to D. [GATE : 2013] S R R D",
+    "options": {
+      "A": "Network layer – 4 times and Data link layer – 4 times",
+      "B": "Network layer – 4 times and Data link layer – 3 times",
+      "C": "Network layer – 4 times and Data link layer – 6 times",
+      "D": "Network layer – 2 times and Data link layer – 6 times"
+    },
+    "answer": null,
+    "page": 1
+  },
+  {
+    "question_no": 3,
+    "question": "In the following pairs of OSI protocol layer/sub-layer and its functionality, the INCORRECT pair is [GATE : 2014]",
+    "options": {
+      "A": "Network layer and Routing",
+      "B": "Data Link Layer and Bit synchronization",
+      "C": "Transport layer and End-to-end process communication",
+      "D": "Medium Access Control sub-layer and Channel sharing"
+    },
+    "answer": null,
+    "page": 1
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following options is/are TRUE?",
+    "options": {
+      "A": "Every layer of OSI model include header which keeps information of protocols implemented inside layer.",
+      "B": "OSI model define three kind of addressing modes to send data packet from one node to another.",
+      "C": "Internet protocol (IP) does not implement error control or flow control, to remove above issues it must be paired with TCP.",
+      "D": "Different layers have different name of packets due to different header size."
+    },
+    "answer": null,
+    "page": 1
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following option is NOT TRUE about protocol?",
+    "options": {
+      "A": "It is a set of rules followed by each node in network.",
+      "B": "It is implemented inside header of data packet.",
+      "C": "It is a program written at different layers to do specific task.",
+      "D": "It is used to design OSI model."
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following options is/are TRUE about header?",
+    "options": {
+      "A": "All the protocols are implemented inside header.",
+      "B": "Header size can not be greater than size of data.",
+      "C": "Some of the layer may not include header.",
+      "D": "No packet can travel into the network without header."
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 7,
+    "question": "Which one of the protocol is NOT associated with physical Layer?",
+    "options": {
+      "A": "Data rate (B) Bit synchronization",
+      "C": "Circuit switching (D) Network topology (E) Access control"
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following options is/are TRUE?",
+    "options": {
+      "A": "MAC-address is used to identify a particular host inside network.",
+      "B": "IP-address is used to identify a host.",
+      "C": "Port-address is used to identify a process inside host.",
+      "D": "Specific-address is used to find an application inside host."
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following options is/are TRUE?",
+    "options": {
+      "A": "The packet is known by Frame in Data Link Layer.",
+      "B": "The packet is known by Datagram at application Layer.",
+      "C": "The packet is known by segment at Transport Layer.",
+      "D": "The name of packet is different at different Layer due to different header size."
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 11,
+    "question": "Which one of the following is NOT TRUE?",
+    "options": {
+      "A": "Circuit switching takes place at physical Layer and uses physical address.",
+      "B": "Datagram switching takes place at network Layer and resources are allocated on demand. Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 13,
+    "question": "Which layers of the OSI reference model are host-to-host layers? [ISRO : 2015]",
+    "options": {
+      "A": "Transport, session, presentation, application (B) Session, presentation, application",
+      "C": "Datalink, transport, presentation, application (D) Physical, datalink, network, transport"
+    },
+    "answer": null,
+    "page": 3
+  },
+  {
+    "question_no": 14,
+    "question": "The following are names of data units in each layer. Mark the correct choice",
+    "options": {
+      "A": "Packet: Data Link Layer (B) Message: Transport Layer",
+      "C": "Bits: Physical Layer (D) None of these"
+    },
+    "answer": null,
+    "page": 3
+  },
+  {
+    "question_no": 16,
+    "question": "Which of the following is NOT TRUE about protocols?",
+    "options": {
+      "A": "It is used for flow control (B) It is used to forwards data packet.",
+      "C": "It is used to design OSI Model (D) It is used inside header of data packet."
+    },
+    "answer": null,
+    "page": 3
+  },
+  {
+    "question_no": 3,
+    "question": "Host A is sending data to host B over a full duplex link. A and B are using the sliding window protocol for flow control. The send and receive window sizes are 5 packets each. Data packets (sent only from A to B) are all 1000 bytes long and the transmission time for such a packet is 50 μs. Acknowledgment packets (sent only from B to A) are very small and require negligible transmission time. The propagation delay over the link is 200 μs. What is the maximum achievable throughput in this communication? [GATE : 2003]",
+    "options": {
+      "A": "7.69 ×106Bps",
+      "B": "11.11 ×106Bps",
+      "C": "12.33 ×106Bps",
+      "D": "15.00 ×106Bps"
+    },
+    "answer": null,
+    "page": 4
+  },
+  {
+    "question_no": 11,
+    "question": "Suppose size of each frame is 1000 bytes and bandwidth of network is 8Mbps. Distance between two connecting node is 1000 km and speed of signal is 2×10(cid:2876) m/s. Which of the following options is/are TRUE?",
+    "options": {
+      "A": "The link utilization of channel is almost 10% if Stop & Wait protocol is used.",
+      "B": "The Sequence number bits required for maximum utilization of channel is 3-bits if Go-Back-N protocol is used.",
+      "C": "The possible window size of sender could be 20.",
+      "D": "The Sequence number bits for maximum utilization is 5-bits if Selective Repeat protocol is used."
+    },
+    "answer": null,
+    "page": 5
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following statements is TRUE about CSMA/CD : [GATE : 2005]",
+    "options": {
+      "A": "IEEE 802.11 wireless LAN runs CSMA/CD protocol",
+      "B": "Ethernet is not based on CSMA/CD protocol",
+      "C": "CSMA/CD is not suitable for a high propagation delay network like satellite network",
+      "D": "There is no contention in a CSMA/CD network Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 5
+  },
+  {
+    "question_no": 27,
+    "question": "Let G(x) be the generator polynomial used for CRC checking. What is the condition that should be satisfied by G(x) to detect odd number of bits in error? [GATE : 2009]",
+    "options": {
+      "A": "G(x) contains more than two terms",
+      "B": "G(x) does not divide 1+xk, for any k not exceeding the frame length",
+      "C": "1+x is a factor of G(x)",
+      "D": "G(x) has an odd number of terms. : Common Data Question 28 & 29 : Frames of 1000 bits are sent over a 106 bps duplex link between two hosts. The propagation time is 25 ms. Frames are to be transmitted into this link to maximally pack them in transit (within the link)."
+    },
+    "answer": null,
+    "page": 7
+  },
+  {
+    "question_no": 36,
+    "question": "In an Ethernet local area network, which one of the following statements is TRUE? [GATE : 2016]",
+    "options": {
+      "A": "A station stops to sense the channel once it starts transmitting a frame.",
+      "B": "The purpose of the jamming signal is to pad the frames that are smaller than the minimum frame size.",
+      "C": "A station continues to transmit the packet even after the collision is detected.",
+      "D": "The exponential back off mechanism reduces the probability of collision on retransmissions."
+    },
+    "answer": null,
+    "page": 8
+  },
+  {
+    "question_no": 43,
+    "question": "Which of the following options is/are TRUE regarding error detection technique?",
+    "options": {
+      "A": "Simple parity check can detect maximum 1-bit error.",
+      "B": "2D-parity check can detect maximum 4-bits error.",
+      "C": "CRC error detection technique can detect any number of bits error.",
+      "D": "To detect ‘d’ bits error the minimum Hamming distance is 2d-1."
+    },
+    "answer": null,
+    "page": 9
+  },
+  {
+    "question_no": 44,
+    "question": "Suppose sequence number bits required in sliding window protocol is 4 bits, then which of the following statements is/are TRUE?",
+    "options": {
+      "A": "The maximum window size is 8 if selective Repeat protocol is used.",
+      "B": "The maximum window size could be 16 if Selective Repeat protocol is used.",
+      "C": "The maximum window size could be 16 if Go-Back-N protocol is used.",
+      "D": "The maximum window size could be 15 if Go-Back-N protocol is used."
+    },
+    "answer": null,
+    "page": 9
+  },
+  {
+    "question_no": 45,
+    "question": "Assume utilization of channel is 10% when Stop and Wait protocol is used. The network bandwidth is 10Mbps. Sequence number bits used is 3 bits (If we wish to implement Sliding Window protocol). Which of the following options is/are TRUE?",
+    "options": {
+      "A": "The throughput of channel is 1Mbps when stop and wait protocol is used.",
+      "B": "The maximum throughput of channel is 7 Mbps if Go-Back-N protocol is used.",
+      "C": "The maximum throughput of channel is 4 Mbps if Selective Repeat protocol is used.",
+      "D": "The maximum sender window size is 8 if selective repeat protocol is used."
+    },
+    "answer": null,
+    "page": 9
+  },
+  {
+    "question_no": 46,
+    "question": "Consider a 8 Mbps satellite communication link with one way propagation delay of 150 ms. Size of frame is 1 kilobyte and neglect transmission time of acknowledgement. Which of the following options is/are TRUE?",
+    "options": {
+      "A": "For maximum utilization of channel, the minimum number of bits required for sequence number field is 8-bits if GBN window protocol is used.",
+      "B": "For maximum utilization of channel, the minimum number of bits required for sequence number field is 10-bits if SR protocol is used.",
+      "C": "The effective bandwidth OR through put is 4 Mbps for 50 % channel utilization, if sliding window protocol is used.",
+      "D": "The maximum window size of sender for 60 % channel utilization is 180. Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 9
+  },
+  {
+    "question_no": 47,
+    "question": "Consider a framing protocol with flag pattern of 01111. Which of the following options is/are TRUE?",
+    "options": {
+      "A": "If sender wish to send the data = 10111 then it will be transmitted on it is, since no flag pattern exist.",
+      "B": "If sender wish to transmit the data = 10111011111101 then number of stuff bits required is 3 to avoid flag from data part.",
+      "C": "Framing protocol is used by sender to support receiver to distinguish individual frame.",
+      "D": "Bit stuffing is used in flag as well as data section of frame."
+    },
+    "answer": null,
+    "page": 10
+  },
+  {
+    "question_no": 48,
+    "question": "Which of the following options is/are TRUE for protocols implemented in Media Access Control?",
+    "options": {
+      "A": "The minimum frame size required for a CSMA/CD network running at 1 Gbps on a 200 m cable with link speed of 2×108m/s is 125 bytes.",
+      "B": "Two stations ‘A’ and ‘B’ trying to access the common medium involves in collision twice. The probability of winning by any one of them in next transmission is 0.25 or 25 %.",
+      "C": "Contention free protocol is less efficient due to low network utilization.",
+      "D": "In CSMA/CD protocol, sender is informed by positive acknowledgment about successful delivery of frames."
+    },
+    "answer": null,
+    "page": 10
+  },
+  {
+    "question_no": 6,
+    "question": "Consider two hosts X and Y, connected by a single direct link of rate 106bits/sec. The distance between the two hosts is 10,000 km and the propagation speed along the link is 2×108m/sec. Host X sends a file of 50,000 bytes as one large message to host Y continuously. Let the transmission and propagation delays be p milliseconds and q milliseconds respectively. Then the value of p and q are [GATE : 2017]",
+    "options": {
+      "A": "p = 50 and q = 100 (B) p = 50 and q = 400",
+      "C": "p = 100 and q = 50 (D) p = 400 and q = 50"
+    },
+    "answer": null,
+    "page": 11
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following options is/are TRUE?",
+    "options": {
+      "A": "Framing protocol is used to separate frames at receiving end.",
+      "B": "Bit stuffing technique is used to identify data inside frame.",
+      "C": "Framing protocols use flag/delimiter bits pattern to separate frame.",
+      "D": "Bit stuffing is used to detect error inside frame."
+    },
+    "answer": null,
+    "page": 11
+  },
+  {
+    "question_no": 17,
+    "question": "In CRC if the data unit is 100111001 and the divisor is 1011 then what is dividend at the receiver? [ISRO : 2015]",
+    "options": {
+      "A": "100111001101 (B) 100111001011",
+      "C": "100111001 (D) 100111001110 Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 11
+  },
+  {
+    "question_no": 18,
+    "question": "In Ethernet CSMA/CD, the special bit sequence transmitted by media access management to handle collision is called [ISRO : 2016]",
+    "options": {
+      "A": "Preamble (B) Postamble",
+      "C": "Jam (D) None of these"
+    },
+    "answer": null,
+    "page": 12
+  },
+  {
+    "question_no": 21,
+    "question": "In CRC checksum method, assume that given frame for transmission is 1101011011 and the generator polynomial is G(x)=x4+x+1 After implementing CRC encoder, the encoded word sent from sender side is _______.",
+    "options": {
+      "A": "11010110111110 (B) 11101101011011",
+      "C": "110101111100111 (D) 110101111001111"
+    },
+    "answer": null,
+    "page": 12
+  },
+  {
+    "question_no": 23,
+    "question": "In a communication network, a packet of length L bits takes link L with a probability of p or link L 1 1 2 with a probability of p . Link L and L have bit error probability of b and b respectively. The 2 1 2 1 2 probability that the packet will be received without error via either L or L is [GATE : 2005] 1 2",
+    "options": {
+      "A": "(1−b)Lp +(1−b )Lp (B) [ 1−(b +b )L ] p p 1 1 2 2 1 2 1 2",
+      "C": "(1−b)L(1−b )Lp p (D) 1−(bLp +b Lp ) 1 2 1 2 1 1 2 2"
+    },
+    "answer": null,
+    "page": 12
+  },
+  {
+    "question_no": 37,
+    "question": "Which of the following statements is/are FALSE? S : Hamming code is used for both error detection and correction. 1 S : CRC is used for error detection. 2",
+    "options": {
+      "A": "S only (B) S only 1 2",
+      "C": "Both S and S (D) Neither S nor S 1 2 1 2"
+    },
+    "answer": null,
+    "page": 14
+  },
+  {
+    "question_no": 1,
+    "question": "Which of the following assertions is FALSE about the Internet Protocol (IP)? [GATE : 2003]",
+    "options": {
+      "A": "It is possible for a computer to have multiple IP addresses",
+      "B": "IP packets from the same source to the same destination can take different routes in the network",
+      "C": "IP ensures that a packet is discarded if it is unable to reach its destination within a given number of hops",
+      "D": "The packet source cannot set the route of an outgoing packets; the route is determined only by the routing tables in the routers on the way"
+    },
+    "answer": null,
+    "page": 18
+  },
+  {
+    "question_no": 2,
+    "question": "The subnet mask for a particular network is 255.255.31.0. Which of the following pairs of IP addresses could belong to this network? [GATE : 2003]",
+    "options": {
+      "A": "172.57.88.62 and 172.56.87.23 (B) 10.35.28.2 and 10.35.29.4",
+      "C": "191.203.31.87 and 191.234.31.88 (D) 128.8.129.43 and 128.8.161.55"
+    },
+    "answer": null,
+    "page": 18
+  },
+  {
+    "question_no": 3,
+    "question": "A host is connected to a Department network which is part of a University network. The University network, in turn, is part of the Internet. The largest network in which the Ethernet address of the host is unique is [GATE : 2004]",
+    "options": {
+      "A": "the subnet to which the host belongs (B) the department network",
+      "C": "the university network (D) the internet"
+    },
+    "answer": null,
+    "page": 18
+  },
+  {
+    "question_no": 6,
+    "question": "Traceroute reports a possible route that is taken by packets moving from some host A to some other host B. Which of the following options represents the technique used by traceroute to identify these hosts : [GATE : 2005]",
+    "options": {
+      "A": "By progressively querying routers about the next router on the path to B using ICMP packets, starting with the first router",
+      "B": "By requiring each router to append the address to the ICMP packet as it is forwarded to B. The list of all routers en-route to B is returned by B in an ICMP reply packet Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 18
+  },
+  {
+    "question_no": 7,
+    "question": "The address resolution protocol (ARP) is used for : [GATE : 2005]",
+    "options": {
+      "A": "Finding the IP address from the DNS",
+      "B": "Finding the IP address of the default gateway",
+      "C": "Finding the IP address that corresponds to a MAC address",
+      "D": "Finding the MAC address that corresponds to an IP address"
+    },
+    "answer": null,
+    "page": 19
+  },
+  {
+    "question_no": 9,
+    "question": "A company has a class C network address of 204.204.204.0. It wishes to have three subnets, one with 100 hosts and two with 50 hosts each. Which one of the following options represents a feasible set of subnet address/subnet mask pairs? [GATE : 2005]",
+    "options": {
+      "A": "204.204.204.128/255.255.255.192 204.204.204.0/255.255.255.128 204.204.204.64/255.255.255.128",
+      "B": "204.204.204.0/255.255.255.192 204.204.204.192/255.255.255.128 204.204.204.64/255.255.255.128",
+      "C": "204.204.204.128/255.255.255.128 204.204.204.192/255.255.255.192 204.204.204.224/255.255.255.192",
+      "D": "204.204.204.128/255.255.255.128 204.204.204.64/255.255.255.192 204.204.204.0/255.255.255.192"
+    },
+    "answer": null,
+    "page": 19
+  },
+  {
+    "question_no": 10,
+    "question": "For which one of the following reasons does internet protocol(IP) use the time-to-live(TTL) field in IP datagram header? [GATE : 2006]",
+    "options": {
+      "A": "Ensure packets reach destination within that time",
+      "B": "Discard packets that reach later than that time",
+      "C": "Prevent packets from looping indefinitely",
+      "D": "Limit the time for which a packet gets queued in intermediate routers"
+    },
+    "answer": null,
+    "page": 19
+  },
+  {
+    "question_no": 11,
+    "question": "Two computers C1 and C2 are configured as follows. C1 has IP address 203.197.2.53 and netmask 255.255.128.0. C2 has IP address 203.197.75.201 and netmask 255.255.192.0. Which one of the following statements is true? [GATE : 2006]",
+    "options": {
+      "A": "C1 and C2 both assume they are on the same network",
+      "B": "C2 assumes C1 is on same network, but C1 assumes C2 is on a different network",
+      "C": "C1 assumes C2 is on same network, but C2 assumes C1 is on a different network",
+      "D": "C1 and C2 both assume they are on different networks. Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 19
+  },
+  {
+    "question_no": 12,
+    "question": "A subnetted Class B network has the following broadcast address: 144.16.95.255 its subnet mask [GATE : 2006]",
+    "options": {
+      "A": "is necessarily 255.255.224.0",
+      "B": "is necessarily 255.255.240.0",
+      "C": "is necessarily 255.255.248.0",
+      "D": "could be any one of 255.255.224.0, 255.255.240.0,255.255.248.0"
+    },
+    "answer": null,
+    "page": 20
+  },
+  {
+    "question_no": 13,
+    "question": "Two popular routing algorithms are Distance Vector (DV) and Link State (LS) routing. Which of the following are true? [GATE : 2008] (S1) : Count to infinity is a problem only with DV and not LS routing (S2) : In LS, the shortest path algorithm is run only at one node (S3) : In DV, the shortest path algorithm is run only at one node (S4) : DV requires lesser number of network messages than LS",
+    "options": {
+      "A": "S1, S2 and S4 only (B) S1, S3 and S4 only",
+      "C": "S2 and S3 only (D) S1 and S4 only : Common Data Question 14 & 15 : Host X has IP address 192.168.1.97 and is connected through two routers R1 and R2 to another host Y with IP address 192.168.1.80. Router R1 has IP addresses 192.168.1.135 and 192.168.1.110. R2 has IP addresses 192.168.1.67 and 192.168.1.155. The subnet mask used in the network is 255.255.255.224."
+    },
+    "answer": null,
+    "page": 20
+  },
+  {
+    "question_no": 21,
+    "question": "An Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available with it: 245.248.128.0/20. The ISP wants to give half of this chunk of addresses to Organization A, and a quarter to Organization B, while retaining the remaining with itself. Which of the following is a valid allocation of addresses to A and B? [GATE : 2012]",
+    "options": {
+      "A": "245.248.136.0/21 and 245.248.128.0/22 (B) 245.248.128.0/21 and 245.248.128.0/22",
+      "C": "245.248.132.0/22 and 245.248.132.0/21 (D) 245.248.136.0/24 and 245.248.132.0/21"
+    },
+    "answer": null,
+    "page": 21
+  },
+  {
+    "question_no": 22,
+    "question": "In an IPv4 datagram, the M bit is 0, the value of HLEN is 10, the value of total length is 400 and the fragment offset value is 300. The position of the datagram, the sequence numbers of the first and the last bytes of the payload, respectively are : [GATE : 2013]",
+    "options": {
+      "A": "Last fragment, 2400 and 2789 (B) First fragment, 2400 and 2759",
+      "C": "Last fragment, 2400 and 2759 (D) Middle fragment, 300 and 689 Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 21
+  },
+  {
+    "question_no": 23,
+    "question": "An IP router with a Maximum Transmission Unit (MTU) of 1500 bytes has received an IP packet of size 4404 bytes with an IP header of length 20 bytes. The values of the relevant fields in the header of the third IP fragment generated by the router for this packet are : [GATE : 2014]",
+    "options": {
+      "A": "MF bit: 0, Datagram Length:1444; Offset:370",
+      "B": "MF bit: 1, Datagram Length:1424; Offset:185",
+      "C": "MF bit: 1, Datagram Length:1500; Offset:370",
+      "D": "MF bit: 0, Datagram Length:1424; Offset:2960"
+    },
+    "answer": null,
+    "page": 22
+  },
+  {
+    "question_no": 34,
+    "question": "Suppose that in an IP-over-Ethernet network, a machine X wishes to find the MAC address of another machine Y in its subnet. Which one of the following techniques can be used for this? [GATE : 2019]",
+    "options": {
+      "A": "X sends an ARP request packet to the local gateway’s IP address which then finds the MAC address of Y and sends to X",
+      "B": "X sends an ARP request packet to the local gateway’s MAC address which then finds the MAC address of Y and sends to X",
+      "C": "X sends an ARP request packet with broadcast MAC address in its local subnet",
+      "D": "X sends an ARP request packet with broadcast IP address in its local subnet"
+    },
+    "answer": null,
+    "page": 23
+  },
+  {
+    "question_no": 35,
+    "question": "Consider three machines M, N, and P with IP addresses 100.10.5.2, 100.10.5.5, and 100.10.5.6 respectively. The subnet mask is set to 255.255.255.252 for all the three machines. Which one of the following is true? [GATE : 2019]",
+    "options": {
+      "A": "M, N, and P all belong to the same subnet (B) Only M and N belong to the same subnet",
+      "C": "Only N and P belong to the same subnet (D) M, N, and P belong to three different subnets"
+    },
+    "answer": null,
+    "page": 23
+  },
+  {
+    "question_no": 38,
+    "question": "Assume IP address of host is 200.200.200.130 and subnet mask of network is 255.255.255.240. Then which of the following options is/are TRUE? Then which of the following options is/are TRUE?",
+    "options": {
+      "A": "The broadcast ID of host in this network is 200.200.200.142",
+      "B": "The possible number of host in this network could be 14.",
+      "C": "The network ID is 200.200.200.128",
+      "D": "The last IP address that can be assigned to a host is 200.200.200.255"
+    },
+    "answer": null,
+    "page": 24
+  },
+  {
+    "question_no": 39,
+    "question": "Suppose the IP Address of the organization is 200.175.56.0 and corresponding subnet mask is 255.255.255.0. Organization wants to create 8 subnets. Then which of the following options is/are TRUE?",
+    "options": {
+      "A": "The network ID of 3rdsubnet could be 200.175.56.64",
+      "B": "The subnet mask to design above network is 255.255.255.240",
+      "C": "The broadcast ID of any subnet could be 200.175.56.127",
+      "D": "The maximum number of host that can be assigned in each subnet is 30."
+    },
+    "answer": null,
+    "page": 24
+  },
+  {
+    "question_no": 40,
+    "question": "Consider the following routing table at an IP router : Network No. Net Mask Next Hop 128.96.170.0 255.255.254.0 Interface 0 128.96.168.0 255.255.254.0 Interface 1 128.96.166.0 255.255.254.0 R2 128.96.164.0 255.255.252.0 R3 0.0.0.0 Default R4 For each IP address in Group I Identify the correct choice of the next hop from Group II using the entries from the routing table above. [GATE : 2015] Group I Group II (i) 128.96.171.92 (a) Interface 0 (ii) 128.96.167.151 (b) Interface 1 (iii) 128.96.164.151 (c) R2 (iv) 128.96.165.121 (d) R3 (e) R4",
+    "options": {
+      "A": "i-a, ii-c, iii-e, iv-d (B) i-a, ii-d, iii-b, iv-e",
+      "C": "i-b, ii-c, iii-d, iv-e (D) i-b, ii-c, iii-e, iv-d Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 24
+  },
+  {
+    "question_no": 41,
+    "question": "Which of the following options is/are TRUE?",
+    "options": {
+      "A": "Identification number assigned to each fragments are different in IPv4 packet.",
+      "B": "Checksum field used in IPv4 packet only protect header from error. st",
+      "C": "Offset field in IPv4 packet is calculated by 1 byte number divided by 8.",
+      "D": "TTL field is used to deliver the IP packet to correct destination."
+    },
+    "answer": null,
+    "page": 25
+  },
+  {
+    "question_no": 42,
+    "question": "Suppose an ISP has allotted classless IP-address with subnet mask : 200.200.200.0/20 to an organization. What is the 3rd octed of broad cast ID in this network ______? Q. 43 Suppose ISP assigned a IP address with subnet mask 200.200.200.0/24 to an org-A. Now org-A wants to create a subnets of different number of addresses in each subnet. Which one of the following assignment is NOT possible?",
+    "options": {
+      "A": "100, 50, 20, 25 (B) 60, 60, 60, 25, 10, 14",
+      "C": "40, 40, 40, 20, 20, 10, 10 (D) 100, 60, 20, 10, 14"
+    },
+    "answer": null,
+    "page": 25
+  },
+  {
+    "question_no": 45,
+    "question": "The subnet mask for a particular network is 255.255.240.0. Which of the following pair of IP-Address could belongs to this network?",
+    "options": {
+      "A": "Both Host assume that they belongs to same network.",
+      "C": "Host(A) assumes that Host(B) belongs to same network but Host(B) on different network.",
+      "B": "Both Host assumes that they belongs to different networks.",
+      "D": "Host(B) assumes that Host(A) belongs to same network but Host(A) on different network. Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 25
+  },
+  {
+    "question_no": 49,
+    "question": "Suppose a company has network address of 200.200.200.0 with subnet mask 255.255.255.0 and it wishes to have four subnets address with 100, 50, 25 and 20 hosts in each sub-network. Which of the following options represent feasible set of subnet ID/subnet mask?",
+    "options": {
+      "A": "200.200.200.128/25 (B) 200.200.200.128/25 200.200.200.64/26 200.200.200.0/26 200.200.200.0/27 200.200.200.64/27 200.200.200.96/27 200.200.200.96/27",
+      "C": "200.200.200.0/25 (D) 200.200.200.0/25 200.200.200.128/26 200.200.200.192/26 200.200.200.128/27 200.200.200.128/27 200.200.200.192/27 200.200.200.192/27"
+    },
+    "answer": null,
+    "page": 26
+  },
+  {
+    "question_no": 1,
+    "question": "In the TCP/IP protocol suite, which one of the following is NOT part of the IP header? [GATE : 2004]",
+    "options": {
+      "A": "Fragment Offset (B) Source IP address",
+      "C": "Destination IP address (D) Destination port number"
+    },
+    "answer": null,
+    "page": 26
+  },
+  {
+    "question_no": 4,
+    "question": "The address of a class B host is to be split into subnets with a 6-bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet? [GATE : 2007]",
+    "options": {
+      "A": "62 subnets and 262142 hosts. (B) 64 subnets and 262142 hosts.",
+      "C": "62 subnets and 1022 hosts. (D) 64 subnets and 1024 hosts."
+    },
+    "answer": null,
+    "page": 26
+  },
+  {
+    "question_no": 6,
+    "question": "One of the header fields in an IP datagram is the Time-to-Live (TTL) field. Which of the following statements best explains the need for this field? [GATE : 2010]",
+    "options": {
+      "A": "It can be used to prioritize packets. (B) It can be used to reduce delays.",
+      "C": "It can be used to optimize throughput. (D) It can be used to prevent packet looping. Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 26
+  },
+  {
+    "question_no": 7,
+    "question": "Count to infinity is a problem associated with : [GATE : 2005]",
+    "options": {
+      "A": "link state routing protocol. (B) distance vector routing protocol",
+      "C": "DNS while resolving host name (D) TCP for congestion control : Common Data Question 8 & 9 : Consider a simple graph with unit edge costs. Each node in the graph represents a router. Each node maintains a routing table indicating the next hop router to be used to relay a packet to its destination and the cost of the path to the destination through that router. Initially, the routing table is empty. The routing table is synchronously updated as follows. In each updated interval, three tasks are performed. i. A node determines whether its neighbours in the graph are accessible. If so, it sets the tentative cost to each accessible neighbour as 1. Otherwise, the cost is set to ∞. ii. From each accessible neighbour, it gets the costs to relay to other nodes via that neighbour (as the next hop). iii. Each node updates its routing table based on the information received in the previous two steps by choosing the minimum cost. B A C D F E"
+    },
+    "answer": null,
+    "page": 27
+  },
+  {
+    "question_no": 8,
+    "question": "For the graph given above, possible routing tables for various nodes after they have stabilized, are shown in the following options. Identify the correct table. [GATE : 2005] Table for node A A – – B B 1",
+    "options": {
+      "A": "C C 1 D B 3 E C 3 F C 4 Table for node C A A 1 B B 1",
+      "B": "C – – D D 1 E E 1 F E 3 Table for node B A A 1 B – –",
+      "C": "C C 1 D D 1 E C 2 F D 2 Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 27
+  },
+  {
+    "question_no": 9,
+    "question": "For the network given in the figure below, the routing tables of the four nodes A, E, D and G are shown. Suppose that F has estimated its delay to its neighbours, A, E, D and G as 8, 10, 12 and 6 msecs respectively and updates its routing table using distance vector routing technique. [GATE : 2007] A B C D F E G Routing Routing Routing Routing table of A table of D table of E table of G A 0 A 20 A 24 A 21 B 40 B 8 B 27 B 24 C 14 C 30 C 7 C 22 D 17 D 0 D 20 D 19 E 21 E 14 E 0 E 22 F 9 F 7 F 11 F 10 G 24 G 22 G 22 G 0 A 8 A 21 B 20 B 8 C 17 C 7",
+    "options": {
+      "A": "D 12 (B) D 19 E 10 E 14 F 0 F 0 G 6 G 22 A 8 A 8 B 20 B 8 C 17 C 7",
+      "C": "D 12 (D) D 12 E 10 E 10 F 16 F 0 G 6 G 6 Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 28
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following is TRUE about the interior gateway routing protocols – Routing Information Protocol (RIP) and Open Shortest Path First (OSPF) [GATE : 2014]",
+    "options": {
+      "A": "RIP uses distance vector routing and OSPF uses link state routing",
+      "B": "OSPF uses distance vector routing and RIP uses link state routing",
+      "C": "Both RIP and OSPF use link state routing",
+      "D": "Both RIP and OSPF use distance vector routing"
+    },
+    "answer": null,
+    "page": 29
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following fields of an IP header is NOT modified by a typical IP router? [GATE : 2015]",
+    "options": {
+      "A": "Check sum (B) Source address",
+      "C": "Time to Live (TTL) (D) Length"
+    },
+    "answer": null,
+    "page": 29
+  },
+  {
+    "question_no": 13,
+    "question": "Range of IP Address from 224.0.0.0 to 239.255.255.255 are [ISRO : 2007]",
+    "options": {
+      "A": "Reserved for loopback (B) Reserved for broadcast",
+      "C": "Used for multicast packets (D) Reserved for future addressing"
+    },
+    "answer": null,
+    "page": 29
+  },
+  {
+    "question_no": 14,
+    "question": "On a LAN, where are IP datagrams transported? [ISRO : 2008]",
+    "options": {
+      "A": "In the LAN header (B) In the application field",
+      "C": "In the information field of the LAN frame (D) After the TCP header"
+    },
+    "answer": null,
+    "page": 29
+  },
+  {
+    "question_no": 18,
+    "question": "The process of modifying IP address information in IP packet headers while in transit across a traffic routing device is called [ISRO : 2014]",
+    "options": {
+      "A": "Port address translation (PAT) (B) Network address translation (NAT)",
+      "C": "Address mapping (D) Port mapping"
+    },
+    "answer": null,
+    "page": 29
+  },
+  {
+    "question_no": 19,
+    "question": "An IP packet has arrived with the first 8 bits as 0100 0010. Which of the following is correct? [ISRO : 2014]",
+    "options": {
+      "A": "The number of hops this packet can travel is 2 (B) The total number of bytes in header is 16 bytes",
+      "C": "The upper layer protocol is ICMP (D) The receiver rejects the packet"
+    },
+    "answer": null,
+    "page": 29
+  },
+  {
+    "question_no": 24,
+    "question": "The address of a class B host is to be split into subnets with a 6 bit subnet number. What is the maximum number of subnets and the maximum number of hosts in each subnet? [ISRO : 2016]",
+    "options": {
+      "A": "62 subnets and 262142 hosts (B) 64 subnets and 262142 hosts",
+      "C": "62 subnets and 1022 hosts (D) 64 subnets and 1024 hosts"
+    },
+    "answer": null,
+    "page": 30
+  },
+  {
+    "question_no": 26,
+    "question": "Consider the following three statements about link state and distance vector routing protocols, for a large network with 500 network nodes and 4000 links. [S1] : The computational overhead in link state protocols is higher than in distance vector protocols. [S2] : A distance vector protocol (with split horizon) avoids persistent routing loops, but not a link state protocol. [S3] : After a topology change, a link state protocol will converge faster than a distance vector protocol. Which one of the following is correct about S1, S2, and S3? [GATE : 2014]",
+    "options": {
+      "A": "S1, S2, and S3 are all true. (B) S1, S2, and S3 are all false.",
+      "C": "S1 and S2 are true, but S3 is false. (D) S1 and S3 are true, but S2 is false."
+    },
+    "answer": null,
+    "page": 30
+  },
+  {
+    "question_no": 38,
+    "question": "BGP is based on",
+    "options": {
+      "A": "Link state routing (B) Distance vector routing",
+      "C": "Dijkstra’s Algorithm (D) Path vector routing"
+    },
+    "answer": null,
+    "page": 31
+  },
+  {
+    "question_no": 55,
+    "question": "You need 500 subnets, each with 100 usable host address per subnet. What network mask will you assign using a class B network address?",
+    "options": {
+      "A": "255.255.255.252 (B) 255.255.255.128",
+      "C": "255.255.255.0 (D) 255.255.254.0"
+    },
+    "answer": null,
+    "page": 33
+  },
+  {
+    "question_no": 56,
+    "question": "The four byte IP-address consist of",
+    "options": {
+      "A": "Network Address only (B) Host address only",
+      "C": "Neither Network nor Host address (D) Both Network and Host Address"
+    },
+    "answer": null,
+    "page": 33
+  },
+  {
+    "question_no": 62,
+    "question": "Which of the following statement is FALSE regarding Distance Vector (DV) and Link State (LS) routing protocols?",
+    "options": {
+      "A": "In DV, every nodes share it’s routing table with it’s neighbor periodically.",
+      "B": "In LS, every node build it’s own minimum spanning tree (MST).",
+      "C": "In DV, every node broadcast it’s routing table to get distance of other.",
+      "D": "In LS, every node broadcast it’s query message to get distance of other."
+    },
+    "answer": null,
+    "page": 33
+  },
+  {
+    "question_no": 65,
+    "question": "Which of the following assertion is FALSE about Internet Protocol (IP)?",
+    "options": {
+      "A": "IP Packet from source to destination can take different route in the path.",
+      "B": "The checksum filed in IP Header help to detect error in header only not in data.",
+      "C": "The length of IP Packet remains same throughout it’s journey.",
+      "D": "TTL inside IP Header prevents it to goes into infinite loop. Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 33
+  },
+  {
+    "question_no": 71,
+    "question": "Which of the following statement is NOT TRUE about Distance Vector Routing (DVR) Protocol?",
+    "options": {
+      "A": "Every node share it’s routing table periodically with it’s immediate neighbor if there is a change.",
+      "B": "It uses RIP",
+      "C": "Count to infinity problems always occur in DVR",
+      "D": "Count to infinity problems occurs if there a link failure."
+    },
+    "answer": null,
+    "page": 34
+  },
+  {
+    "question_no": 72,
+    "question": "Which of the following assertion is NOT TRUE about Internet Control Message Protocol (ICMP)?",
+    "options": {
+      "A": "It uses error reporting message to find whether router or host is alive or not.",
+      "B": "It uses query message to get specific information from router or host.",
+      "C": "The debugging tools like Ping or tracert uses ICMP packet.",
+      "D": "ICMP packet is used to get distance of another node. Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 34
+  },
+  {
+    "question_no": 1,
+    "question": "Assume Transport Layer congestion control protocol is used. Initially size of congestion window is 1MSS and the value of threshold is 16MSS. Which of the following options is/are TRUE?",
+    "options": {
+      "A": "The congestion window size of sender will be 16MSS after 5RTT.",
+      "B": "The congestion window size is 32 after 5RTT.",
+      "C": "The congestion window size is 17 after 5RTT.",
+      "D": "Suppose timeout occurs at 8RTT then at that moment the sender’s current window size will immediately dropped to 1MSS with threshold 10MSS."
+    },
+    "answer": null,
+    "page": 36
+  },
+  {
+    "question_no": 2,
+    "question": "Which of the following functionality must be implemented by a transport protocol over and above the network protocol? [GATE : 2003]",
+    "options": {
+      "A": "Recovery from packet losses (B) Detection of duplicate packets",
+      "C": "Packet delivery in the correct order (D) End to end connectivity"
+    },
+    "answer": null,
+    "page": 36
+  },
+  {
+    "question_no": 5,
+    "question": "Packets of the same session may be routed through different paths in: [GATE : 2005]",
+    "options": {
+      "A": "TCP, but not UDP (B) TCP and UDP",
+      "C": "UDP, but not TCP (D) Neither TCP nor UDP"
+    },
+    "answer": null,
+    "page": 36
+  },
+  {
+    "question_no": 10,
+    "question": "Which of the following statements are TRUE? [GATE : 2008] S1 : TCP handles both congestion and flow control S2 : UDP handles congestion but not flow control S3 : Fast retransmit deals with congestion but not flow control S4 : Slow start mechanism deals with both congestion and flow control",
+    "options": {
+      "A": "S1, S2 and S3 only (B) S1 and S3only",
+      "C": "S3and S4 only (D) S1, S3 and S4 only"
+    },
+    "answer": null,
+    "page": 37
+  },
+  {
+    "question_no": 12,
+    "question": "A client process P needs to make a TCP connection to a server process S. Consider the following situation: the server process S executes a socket(), a bind() and a listen() system call in that order, following which it is preempted. Subsequently, the client process P executes a socket() system call followed by connect() system call to connect to the server process S. The server process has not executed any accept() system call. Which one of the following events could take place? [GATE : 2008]",
+    "options": {
+      "A": "connect() system call returns successfully (B) connect() system call blocks",
+      "C": "connect() system call returns an error (D) connect() system call results in a core dump"
+    },
+    "answer": null,
+    "page": 37
+  },
+  {
+    "question_no": 17,
+    "question": "The transport layer protocols used for real time multimedia, file transfer, DNS and email, respectively are [GATE : 2013]",
+    "options": {
+      "A": "TCP, UDP, UDP and TCP (B) UDP, TCP, TCP and UDP",
+      "C": "UDP, TCP, UDP and TCP (D) TCP, UDP, TCP and UDP"
+    },
+    "answer": null,
+    "page": 38
+  },
+  {
+    "question_no": 20,
+    "question": "Identify the correct order in which a server process must invoke the function calls accept, bind, listen, and recv according to UNIX socket API. [GATE : 2015]",
+    "options": {
+      "A": "listen, accept, bind, recv (B) bind, listen, accept, recv",
+      "C": "bind, accept, listen, recv (D) accept, listen, bind, recv"
+    },
+    "answer": null,
+    "page": 38
+  },
+  {
+    "question_no": 23,
+    "question": "Consider the following statements. I. TCP connections are full duplex II. TCP has no option for selective acknowledgement III. TCP connections are message streams [GATE : 2015]",
+    "options": {
+      "A": "Only I is correct (B) Only I and III are correct",
+      "C": "Only II and III are correct (D) All of I, II and III are correct"
+    },
+    "answer": null,
+    "page": 39
+  },
+  {
+    "question_no": 24,
+    "question": "Identify the correct sequence in which the following packets are transmitted on the network by a host when a browser requests a webpage from a remote server, assuming that the host has just been restarted. [GATE : 2016]",
+    "options": {
+      "A": "HTTP GET request, DNS query, TCP SYN (B) DNS query, HTTP GET request, TCP SYN",
+      "C": "DNS query, TCP SYN, HTTP GET request (D) TCP SYN, DNS query, HTTP GET request"
+    },
+    "answer": null,
+    "page": 39
+  },
+  {
+    "question_no": 31,
+    "question": "Consider a congestion control protocol which start with slow start phase. Initial congestion window size is 1MSS = 2 KB. Which of the following options is/are TRUE?",
+    "options": {
+      "A": "Suppose sender receives 3rd duplicate ACK on 5th transmission then size of congestion window will be 32 KB.",
+      "B": "Suppose time out occurs at 3rd transmission then congestion window size at 7th transmission will be 14 KB.",
+      "C": "Suppose congestion window size is equal to threshold, then it increase by one on new acknowledgment.",
+      "D": "Suppose at particular time instance the congestion window size was 16 KB when sender receiver 3rd duplicate ACK. The total transmission(in RTT) require to gain same congestion window is 7RTT."
+    },
+    "answer": null,
+    "page": 40
+  },
+  {
+    "question_no": 1,
+    "question": "Which one of the following statements is FALSE? [GATE : 2004]",
+    "options": {
+      "A": "TCP guarantees a minimum communication rate",
+      "B": "TCP ensures in-order delivery",
+      "C": "TCP reacts to congestion by reducing sender window size",
+      "D": "TCP employs retransmission to compensate for packet loss"
+    },
+    "answer": null,
+    "page": 40
+  },
+  {
+    "question_no": 3,
+    "question": "In the slow start phase of the TCP congestion algorithm, the size of the congestion window: [GATE : 2008]",
+    "options": {
+      "A": "does not increase (B) increase linearly",
+      "C": "increases quadratically (D) increases exponentially Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 40
+  },
+  {
+    "question_no": 5,
+    "question": "An ACK number of 1000 in TCP always means that [ISRO : 2015]",
+    "options": {
+      "A": "999 bytes have been successfully received (B) 1000 bytes have been successfully received",
+      "C": "1001 bytes have been successfully received (D) None of the above"
+    },
+    "answer": null,
+    "page": 41
+  },
+  {
+    "question_no": 6,
+    "question": "Assuming that for a given network layer implementation, connection establishment overhead is 100 bytes and disconnection overhead is 28 bytes. What would be the minimum size of the packet the transport layer needs to keep up, if it wishes to implement a datagram service above the network needs to keep its overhead to a minimum of 12.5%. (Ignore transport layer overhead) [ISRO : 2018]",
+    "options": {
+      "A": "512 bytes (B) 768 bytes",
+      "C": "1152 bytes (D) 1024 bytes"
+    },
+    "answer": null,
+    "page": 41
+  },
+  {
+    "question_no": 8,
+    "question": "Assume that the bandwidth for a TCP connection is 1048560 bits/sec. Let α be the value of RTT in milliseconds (rounded off to the nearest integer) after which the TCP window scale option is needed. Let β be the maximum possible window size with window scale option. Then the values of α and β are [GATE : 2015]",
+    "options": {
+      "A": "63 milliseconds, 65535×214 (B) 63 milliseconds, 65535×216",
+      "C": "500 milliseconds, 65535×214 (D) 500 milliseconds, 65535×216"
+    },
+    "answer": null,
+    "page": 41
+  },
+  {
+    "question_no": 9,
+    "question": "Consider “Additive Increase Multiplicative Decrease” approach of TCP congestion control. One MSS (Maximum segment size) is 512 bytes. If the TCP sender doesn’t perceive the path as not congested, then what will be congestion window after 2 RTTS provided the congestion window is assigned 1MSS initially?",
+    "options": {
+      "A": "512 bytes (B) 2048 bytes",
+      "C": "2560 Bytes (D) 1536 Bytes"
+    },
+    "answer": null,
+    "page": 41
+  },
+  {
+    "question_no": 13,
+    "question": "In a 4Gbps line, it takes 2 seconds to wrap around the sequence number. How many bits were used for sequence Number?",
+    "options": {
+      "A": "37 bits (B) 34 bits",
+      "C": "30 bits (D) 32 bits Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 41
+  },
+  {
+    "question_no": 17,
+    "question": "In TCP, sequence number is used for",
+    "options": {
+      "A": "Rearranging the data of receiver end before passing to the application.",
+      "B": "Detecting duplicate data",
+      "C": "Both",
+      "D": "None of these."
+    },
+    "answer": null,
+    "page": 42
+  },
+  {
+    "question_no": 27,
+    "question": "Which of the following statements is FALSE about TCP?",
+    "options": {
+      "A": "It uses sequence number field for inorder delivery of data segments",
+      "B": "It is connection oriented protocols so all packets follow same path.",
+      "C": "It is responsible for end to end delivery of data segments",
+      "D": "It is used in an application in which reliability is must."
+    },
+    "answer": null,
+    "page": 43
+  },
+  {
+    "question_no": 29,
+    "question": "Which of the following statement is NOT True?",
+    "options": {
+      "A": "TCP assigns sequence number to each byte",
+      "B": "TCP assign sequence number only to the first byte of segment",
+      "C": "TCP uses 32- bits for sequence number field.",
+      "D": "Byte numbering is used for flow control"
+    },
+    "answer": null,
+    "page": 43
+  },
+  {
+    "question_no": 30,
+    "question": "Which of the following field is NOT included in TCP Header?",
+    "options": {
+      "A": "Sequence Number (B) Acknowledgement Number",
+      "C": "Checksum (D) Protocol"
+    },
+    "answer": null,
+    "page": 43
+  },
+  {
+    "question_no": 32,
+    "question": "Suppose size of receiver window is 20KB and size of congestion window is 10KB. What should be the size of sender window to maintain flow control?",
+    "options": {
+      "A": "30KB (B) 20KB",
+      "C": "10KB (D) Could be 10KB or 20KB"
+    },
+    "answer": null,
+    "page": 44
+  },
+  {
+    "question_no": 1,
+    "question": "Consider the three commands : PROMPT, HEAD and RCPT. Which of the following options indicate a correct association of these commands with protocols where these are used? [GATE : 2005]",
+    "options": {
+      "A": "HTTP, SMTP, FTP (B) FTP, HTTP, SMTP",
+      "C": "HTTP, FTP, SMTP (D) SMTP, HTTP, FTP"
+    },
+    "answer": null,
+    "page": 46
+  },
+  {
+    "question_no": 2,
+    "question": "Assume that “host1.mydomain.dom” has an IP address of 145.128.16.8. Which of the following options would be most appropriate as a subsequence of steps in performing the reverse lookup of 145.128.16.8? In the following options “NS” is an abbreviation of “nameserver”. [GATE : 2005]",
+    "options": {
+      "A": "Query a NS for the root domain and then NS for the “dom” domains",
+      "B": "Directly query a NS for “dom” and then a NS for “mydomain.dom” domains",
+      "C": "Query a NS for in-addr.arpa and then a NS for 128.145.in-addr.arpa domains",
+      "D": "Directly query a NS for 145.in-addr.arpa and then a NS for 128.145.in-addr.arpa domains"
+    },
+    "answer": null,
+    "page": 46
+  },
+  {
+    "question_no": 3,
+    "question": "HELO and PORT, respectively, are commands from the protocols: [GATE : 2006]",
+    "options": {
+      "A": "FTP and HTTP (B) TELNET and POP3",
+      "C": "HTTP and TELNET (D) SMTP and FTP"
+    },
+    "answer": null,
+    "page": 46
+  },
+  {
+    "question_no": 4,
+    "question": "Consider the following clauses : i. Not inherently suitable for client authentication. ii. Not a state sensitive protocol. iii. Must be operated with more than one server. iv. Suitable for structured message organization. v. May need two ports on the serve side for proper operation. The option that has the maximum number of correct matches is [GATE : 2007]",
+    "options": {
+      "A": "IMAP-i; FTP-ii; HTTP-iii; DNS-iv; POP3-v (B) FTP-i; POP3-ii; SMTP-iii; HTTP-iv; IMAP-v",
+      "C": "POP3-i; SMTP-ii; DNS-iii; IMAP-iv; HTTP-v (D) SMTP-i; HTTP-ii; IMAP-iii; DNS-iv; FTP-v"
+    },
+    "answer": null,
+    "page": 46
+  },
+  {
+    "question_no": 5,
+    "question": "Provide the best matching between the entries in the two columns given in the table below : [GATE : 2008] I. Proxy Server a. Firewall II. Kazaa, DC++ b. Caching III. Slip c. P2P IV. DNS d. PPP",
+    "options": {
+      "A": "I-a, II-d, III-c, IV-b (B) I-b, II-d, III-c, IV-a",
+      "C": "I-a, II-c, III-d, IV-b (D) I-b, II-c, III-d, IV-a Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 46
+  },
+  {
+    "question_no": 6,
+    "question": "Consider the different activities related to email. m1 : Send an email from mail client to mail server m2 : Download an email from mailbox server to a mail client m3 : Checking email in a web browser Which is the application level protocol used in each activity? [GATE : 2011]",
+    "options": {
+      "A": "m1: HTTP m2: SMTP m3: POP (B) m1: SMTP m2: FTP m3: HTTP",
+      "C": "m1: SMTP m2: POP m3: HTTP (D) m1: POP m2: SMTP m3: IMAP"
+    },
+    "answer": null,
+    "page": 47
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following is/are example(s) of stateful application layer protocol? [GATE : 2016] (i) HTTP (ii) FTP (iii) TCP (iv) POP3",
+    "options": {
+      "A": "(i) and (ii) only (B) (ii) and (iii) only",
+      "C": "(ii) and (iv) only (D) (iv) only"
+    },
+    "answer": null,
+    "page": 47
+  },
+  {
+    "question_no": 2,
+    "question": "What is the maximum size of data that the application layer can pass on to the TCP layer below? [GATE : 2008]",
+    "options": {
+      "A": "Any size (B) 216 bytes - size of TCP header",
+      "C": "216 bytes (D) 1500 bytes"
+    },
+    "answer": null,
+    "page": 47
+  },
+  {
+    "question_no": 4,
+    "question": "A packet filtering firewall can [ISRO : 2013]",
+    "options": {
+      "A": "Deny certain users from accessing a service",
+      "B": "Block worms and viruses from entering the network",
+      "C": "Disallow some files from being accessed through FTP",
+      "D": "Block some hosts from accessing the network Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 47
+  },
+  {
+    "question_no": 6,
+    "question": "Generally TCP is reliable and UDP is not reliable. DNS which has to be reliable uses UDP because [ISRO : 2017]",
+    "options": {
+      "A": "UDP is slower",
+      "B": "DNS servers has to keep connections",
+      "C": "DNS requests are generally very small and fit well within UDP segments",
+      "D": "None of these"
+    },
+    "answer": null,
+    "page": 48
+  },
+  {
+    "question_no": 7,
+    "question": "Consider the set of activities related to e-mail [ISRO : 2017] A : Send an e-mail from a mail client to mail server. B : Download e-mail headers from mailbox and retrieve mails from server to cache. C : Checking e-mail through a web browser. The application level protocol used for each activity in the same sequence is",
+    "options": {
+      "A": "SMTP, HTTPS, IMAP (B) SMTP, POP, IMAP",
+      "C": "SMTP, IMAP, HTTPS (D) SMTP, IMAP, POP"
+    },
+    "answer": null,
+    "page": 48
+  },
+  {
+    "question_no": 9,
+    "question": "Distance vector routing algorithm is a dynamic routing algorithm. The routing tables in distance vector routing algorithm are updated _______.",
+    "options": {
+      "A": "automatically",
+      "B": "by server",
+      "C": "by exchanging information with neighbour nodes",
+      "D": "with back up database"
+    },
+    "answer": null,
+    "page": 48
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following is TRUE about DNS?",
+    "options": {
+      "A": "DNS uses only UDP protocol.",
+      "B": "DNS uses only TCP protocol.",
+      "C": "DNS can use either TCP or UDP depending upon response of message size.",
+      "D": "None"
+    },
+    "answer": null,
+    "page": 48
+  },
+  {
+    "question_no": 12,
+    "question": "Which of the following are FALSE?",
+    "options": {
+      "A": "DNS can use either TCP or UDP protocol.",
+      "B": "DNS uses well known port 53.",
+      "C": "DNS is used to find IP-address with MAC address.",
+      "D": "DNS uses TCP if response message size is less than 512 byes. Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 48
+  },
+  {
+    "question_no": 13,
+    "question": "Which of the following statement is FALSE about DNS operation?",
+    "options": {
+      "A": "DNS is client-server architecture.",
+      "B": "DNS organizes the name space in decentralize manner.",
+      "C": "DNS matches name space from root to leaf or from leaf to root of tree.",
+      "D": "Each node in tree has domain name."
+    },
+    "answer": null,
+    "page": 49
+  },
+  {
+    "question_no": 15,
+    "question": "Which of the following statements is incorrect?",
+    "options": {
+      "A": "In electronics mail, MIME allows the transfer of multimedia messages.",
+      "B": "In electronic mail, MTA transfers the mail across internet.",
+      "C": "POP3 and IMAP4 protocols are used for polling messages from mail server.",
+      "D": "None"
+    },
+    "answer": null,
+    "page": 49
+  },
+  {
+    "question_no": 17,
+    "question": "Which of the following statements is incorrect about HTTP?",
+    "options": {
+      "A": "HTTP uses TCP connection transfer files.",
+      "B": "HTTP is a protocol used to access world wide web (WWW)",
+      "C": "TCP uses any port number for HTTP connection.",
+      "D": "HTTP message is similar to SMTP message. Answers Classroom Practice Questions 1 B 2 C 3 D 4 D 5 C 6 C 7 C 8 A 9 C 10 B 11 6 Self-Practice Questions 1 C 2 A 3 C 4 D 5 D 6 C 7 C 8 D 9 C 10 D 11 C 12 C 13 C 14 D 15 D 16 B 17 C  Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 49
+  },
+  {
+    "question_no": 2,
+    "question": "Choose the correct alternatives (more than one may be correct) and write the corresponding letters only : Start and stop bits do not contain any ‘information’ but are used in serial communication[GATE : 1992]",
+    "options": {
+      "A": "Error detection (B) Error correction",
+      "C": "Synchronization (D) Slowing down the communications"
+    },
+    "answer": null,
+    "page": 50
+  },
+  {
+    "question_no": 3,
+    "question": "Which one of the following statements is FALSE? [GATE : 2004]",
+    "options": {
+      "A": "Packet switching leads to better utilization of bandwidth resources than circuit switching",
+      "B": "Packet switching results in less variation in delay than circuit switching",
+      "C": "Packet switching requires more per-packet processing than circuit switching",
+      "D": "Packet switching can lead to reordering unlike in circuit switching : Common Data Question 4 & 5 : Consider three IP networks A, B and C. Host H in network A sends messages each containing 180 bytes A of application data to a host H in network C. The TCP layer prefixes a 20 byte header to the message. C This passes through an intermediate network B. The maximum packet size, including 20 byte IP header, in each network is : A: 1000 bytes B: 100 bytes C: 1000 bytes The networks A and B are connected through a 1 Mbps link, while B and C are connected by a 512 Kbps link (bps = bits per second). 1 Mbps 512 Mbps Network A Network B Network C"
+    },
+    "answer": null,
+    "page": 50
+  },
+  {
+    "question_no": 7,
+    "question": "In a network of LANs connected by bridges, packets are sent from one LAN to another through intermediate bridges. Since more than one path may exist between two LANs, packets may have to be routed through multiple bridges. Why is the spanning tree algorithm used for bridge-routing? [GATE : 2005]",
+    "options": {
+      "A": "For shortest path routing between LANs (B) For avoiding loops in the routing paths",
+      "C": "For fault tolerance (D) For minimizing collisions"
+    },
+    "answer": "C",
+    "page": 51
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following statements is FALSE regarding a bridge? [GATE : 2005]",
+    "options": {
+      "A": "Bridge is a layer 2 device",
+      "B": "Bridge reduces collision domain",
+      "C": "Bridge is used to connect two or more LAN segments",
+      "D": "Bridge reduces broadcast domain"
+    },
+    "answer": null,
+    "page": 51
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following statements is TRUE? [GATE : 2006]",
+    "options": {
+      "A": "Both Ethernet frame and IP packet include checksum fields",
+      "B": "Ethernet frame includes a checksum field and IP packet includes a CRC field",
+      "C": "Ethernet frame includes a CRC field and IP packet includes a checksum field",
+      "D": "Both Ethernet frame and IP packet include CRC fields"
+    },
+    "answer": null,
+    "page": 51
+  },
+  {
+    "question_no": 11,
+    "question": "Which of the following is NOT true with respect to a transparent bridge and a router? [GATE : 2004]",
+    "options": {
+      "A": "Both bridge and router selectively forward data packets",
+      "B": "A bridge uses IP addresses while a router uses MAC addresses",
+      "C": "A bridge builds up its routing table by inspecting incoming packets",
+      "D": "A router can connect between a LAN and a WAN"
+    },
+    "answer": null,
+    "page": 51
+  },
+  {
+    "question_no": 12,
+    "question": "Which one of the following option is FALSE about connecting devices like hub, bridge, switch and router?",
+    "options": {
+      "A": "Hub is a kind of repeater with multiport start topology.",
+      "B": "Switch is a kind of bridge in which each node connect with single port.",
+      "C": "Dynamic switch faces problems of loops which can be avoided by minimum spanning tree algorithm.",
+      "D": "Router is layer-3 device which can’t inspect MAC-address of incoming packet."
+    },
+    "answer": null,
+    "page": 51
+  },
+  {
+    "question_no": 19,
+    "question": "Match the following : [GATE : 2018] Field Length in bits P. UDP Header’s Port Number I. 48 Q. Ethernet MAC Address II. 8 R. IPv6 Next Header III. 32 S. TCP Header’s Sequence Number IV. 16",
+    "options": {
+      "A": "P-III, Q-IV, R-II, S-I (B) P-II, Q-I, R-IV, S-III",
+      "C": "P-IV, Q-I, R-II, S-III (D) P-IV, Q-I, R-III, S-II Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 52
+  },
+  {
+    "question_no": 1,
+    "question": "For the given connection of LANs by bridges, which one of the following choices represents the depth first traversal of the spanning tree of bridges? [GATE : 2006]",
+    "options": {
+      "A": "B1, B5, B3, B4, B2 (B) B1, B3, B5, B2, B4",
+      "C": "B1, B5, B2, B3, B4 (D) B1, B3, B4, B5, B2"
+    },
+    "answer": "B",
+    "page": 53
+  },
+  {
+    "question_no": 2,
+    "question": "Consider the spanning tree B1, B5, B3, B4, B2 for the given connection of LANs by bridges, that represents the depth first traversal of the spanning tree of bridges. Let host H1 send out a broadcast ping packet. Which of the following options represents the correct forwarding table on B3? [GATE : 2006] Hosts Port H1, H2, H3, H4 3",
+    "options": {
+      "A": "H5, H6, H9, H10 1 H7, H8, H11, H12 2 Hosts Port H1, H2 4 H3, H4 3",
+      "B": "H5, H6 1 H7, H8, H9, H10, 2 H11, H12 Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": "B",
+    "page": 53
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following statement/s is/are TRUE? S : Each packet is routed independently in Datagram networks. 1 S : All packets follow the same route in virtual circuit networks. 2",
+    "options": {
+      "A": "S only (B) S only 1 2",
+      "C": "Both S and S (D) Neither S nor S 1 2 1 2 Answers Classroom Practice Questions 1 3, 4 2 C 3 B 4 D 5 B 6 D 7 B 8 D 9 C 10 B 11 B 12 D 13 8 14 0.625 15 C 16 A 17 D 18 1575 19 C Self-Practice Questions 1 A 2 A 3 B 4 C  Gate Academy Shop Address : Street 04, Narsingh Vihar, Katulbod, Bhilai 490022 (C.G.), Contact : 97131-13156 Online Test Series https://www.gateacademy.shop/ Live class room: https://play.google.com/store/apps/details?id=com.gateacademy1 http://onlinetestseries.gateacademy.co.in"
+    },
+    "answer": null,
+    "page": 54
+  }
+]

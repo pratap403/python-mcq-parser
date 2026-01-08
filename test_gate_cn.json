@@ -1,0 +1,72 @@
+[
+  {
+    "question_no": 4,
+    "question": "Routes data from one network node to the next",
+    "options": {
+      "A": "P-1, Q-4, R-3",
+      "B": "P-2, Q-4, R-1",
+      "C": "P-2, Q-3, R-1"
+    },
+    "answer": null,
+    "page": 1
+  },
+  {
+    "question_no": 5,
+    "question": "Physical layer",
+    "options": {
+      "A": "P-2, Q-1, R-3,S-5",
+      "B": "P-1, Q-4, R-2,S-3",
+      "C": "P-1,Q-4, R-2,S-5",
+      "D": "P-2, Q-4, R-1, S-3"
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 3,
+    "question": "Which one of the following protocols is NOT implemented in Transport Layer?",
+    "options": {
+      "A": "Slow Start",
+      "B": "UDP",
+      "C": "ARP",
+      "D": "Fast Retransmit"
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 4,
+    "question": "= Which of the following option is NOT TRUE about protocol? (A) It is a set of rules followed by each node in network. nAAL",
+    "options": {
+      "B": "Header size can not be greater than size of data.",
+      "C": "Some of the layer may not include header.",
+      "A": "All the protocols are implemented inside header.",
+      "D": "No packet can travel into the network without header."
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 7,
+    "question": "Which one of the protocol is NOT associated with physical Layer?",
+    "options": {
+      "A": "The packet is known by Frame in Data Link Layer.",
+      "B": "The packet is known by Datagram at application Layer.",
+      "C": "The packet is known by segment at Transport Layer.",
+      "D": "The name of packet is different at different Layer due to different header size."
+    },
+    "answer": null,
+    "page": 2
+  },
+  {
+    "question_no": 13,
+    "question": "Which layers of the OSI reference model are host-to-host layers? [ISRO : 2015]",
+    "options": {
+      "A": "MAC-Address",
+      "B": "IP-Address",
+      "C": "Port Address"
+    },
+    "answer": null,
+    "page": 3
+  }
+]

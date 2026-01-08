@@ -1,0 +1,30 @@
+Computer Science MCQs
+
+1. What does CPU stand for?
+(A) Central Processing Unit
+(8) Computer Personal Unit
+(C) Central Program Utility
+(D) Computer Processing Unit
+Ans: A
+
+2. Which of the following is an input device?
+(A) Monitor
+
+(8) Printer
+
+(C) Keyboard
+
+(D) Speaker
+
+Ans: C
+
+3. What is the brain of the computer?
+(A) RAM
+
+(8) CPU
+
+(C) Hard Disk
+
+(D) Monitor
+
+Ans: B
