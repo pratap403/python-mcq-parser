@@ -6,7 +6,7 @@ import pdfplumber
 import re
 import json
 
-PDF_PATH = "C:\\Users\\Akshaypratap\\Desktop\\pdf\\files\\YCT_Computer_Chapterwise_Solved_Papers_English_M_250906_083412.pdf"
+PDF_PATH = "D:\\pdf_files\\YCT_Computer_Chapterwise_Solved_Papers_English_M_250906_083412.pdf"
 OUTPUT_JSON = "mcqs_yct_columns.json"
 
 def extract_column_text(page):
@@ -271,8 +271,8 @@ def main():
     print("YCT PDF Parser - Column-Based Extraction")
     print(f"{'='*70}\n")
     
-    # Extract questions from pages 151 to 161
-    questions = extract_all_questions(PDF_PATH, start_page=150, num_pages=11)
+    # Extract questions from pages 172 to 200
+    questions = extract_all_questions(PDF_PATH, start_page=171, num_pages=29)
     
     print(f"\n✅ Found {len(questions)} questions")
     
