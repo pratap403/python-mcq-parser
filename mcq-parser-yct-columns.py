@@ -232,6 +232,16 @@ def clean_text(text):
     # Remove BPSC patterns
     text = re.sub(r'\d+[a-z]*\s+BPSC\s*\([^)]+\)\s*\d{4}', '', text)
 
+    # Remove common exam source patterns
+    text = re.sub(r'Bihar\s*\(\)', '', text)
+    text = re.sub(r'\(Batch[-\s]*\d*\)', '', text, flags=re.I)
+    text = re.sub(r'\(Evening\)', '', text, flags=re.I)
+    text = re.sub(r'\(Morning\)', '', text, flags=re.I)
+    text = re.sub(r'EMRS\s*[\w\s,\-]*\d{4}', '', text)
+    text = re.sub(r'ARO\s+Alld\.?\s*HC,?[^)]*', '', text)
+    text = re.sub(r'Com\.\s*Asst\.?\s*Alld\.?\s*HC,?[^)]*', '', text)
+    text = re.sub(r'\(\s*\)', '', text)  # Empty parentheses
+
     # Remove extra whitespace
     text = ' '.join(text.split())
 
@@ -271,8 +281,8 @@ def main():
     print("YCT PDF Parser - Column-Based Extraction")
     print(f"{'='*70}\n")
     
-    # Extract questions from pages 172 to 200
-    questions = extract_all_questions(PDF_PATH, start_page=171, num_pages=29)
+    # Extract questions from pages 201 to 300
+    questions = extract_all_questions(PDF_PATH, start_page=200, num_pages=100)
     
     print(f"\n✅ Found {len(questions)} questions")
     

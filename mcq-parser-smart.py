@@ -72,27 +72,34 @@ def parse_questions_from_text(text, page_num=0):
     """Parse MCQs from extracted text"""
     questions = []
 
-    # Split by question number patterns: "172." or "172)"
-    # Only match 2-4 digit numbers (realistic question numbers)
-    blocks = re.split(r'(?=(?:^|\n)\s*(\d{2,4})\s*[.\)]\s+[A-Z])', text)
+    # Split by question number patterns: "459." or "172."
+    # Match 2-4 digit numbers followed by period/paren and a word character
+    # This captures questions like "459. A Group..." or "172. Select..."
+    blocks = re.split(r'(?=(?:^|\n)\s*(\d{2,4})\s*[.\)]\s+\w)', text)
 
     current_num = None
     current_text = []
 
     for block in blocks:
-        # Check if block starts with a question number followed by text starting with capital
-        match = re.match(r'^\s*(\d{2,4})\s*[.\)]\s+([A-Z].*)$', block, re.DOTALL)
+        # Check if block starts with a question number
+        match = re.match(r'^\s*(\d{2,4})\s*[.\)]\s+(.+)$', block, re.DOTALL)
         if match:
             q_num = int(match.group(1))
+            q_text_start = match.group(2).strip()
+
             # Filter: question numbers should be reasonable (10-9999)
-            if 10 <= q_num <= 9999:
+            # Also skip if it looks like an answer explanation (starts with Ans)
+            if 10 <= q_num <= 9999 and not q_text_start.lower().startswith('ans'):
                 # Save previous question
                 if current_num and current_text:
                     q = parse_single_question(current_num, '\n'.join(current_text), page_num)
                     if q and len(q['options']) >= 2:  # Must have at least 2 options
                         questions.append(q)
                 current_num = q_num
-                current_text = [match.group(2)]
+                current_text = [q_text_start]
+            elif current_num:
+                # This might be part of previous question (like numbered list in explanation)
+                current_text.append(block)
         elif current_num:
             current_text.append(block)
 
@@ -125,7 +132,9 @@ def parse_single_question(q_num, text, page_num):
         for m in matches:
             opt_text = re.sub(r'\s+', ' ', m.group(2)).strip()
             # Remove exam info from options
-            opt_text = re.sub(r'\s*(UPPCL|UPRVUNL|YCT|Shift).*$', '', opt_text, flags=re.I)
+            opt_text = re.sub(r'\s*(UPPCL|UPRVUNL|YCT|Shift|Bihar|S\.?S\.?C\.?|CPO|PGT|TRE|Exam|DSSSB|EMRS|ARO|Alld|HC,|\d{1,2}\.\d{1,2}\.\d{2,4}).*$', '', opt_text, flags=re.I)
+            # Also clean trailing punctuation and whitespace
+            opt_text = opt_text.rstrip(' ,')
             if opt_text:
                 options[m.group(1).upper()] = opt_text
     else:
