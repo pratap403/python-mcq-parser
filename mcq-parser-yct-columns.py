@@ -94,15 +94,15 @@ def parse_column_questions(text, page_num):
         has_options = re.search(r'\([a-d]\)', content, re.IGNORECASE)
 
         # If no options found, this might be part of previous question (numbered list)
-        # Try to merge with next part
+        # Try to merge with next parts until we find options
         if not has_options and i + 3 < len(parts):
-            # Merge this part with next parts until we find options
             merged_content = content
             j = i + 2
             while j < len(parts) and j < i + 10:  # Look ahead max 5 parts
                 if j + 1 < len(parts):
                     next_num = int(parts[j]) if parts[j].isdigit() else 0
-                    # Only merge if next number is small (likely a list item, not a question)
+
+                    # Only merge if next number is small (likely a list item like "1. Cobra")
                     if next_num <= 10:
                         merged_content += f"\n{parts[j]}. {parts[j + 1]}"
 
@@ -111,10 +111,10 @@ def parse_column_questions(text, page_num):
                             # Found options! Use merged content
                             content = merged_content
                             has_options = True
-                            i = j + 2  # Skip the merged parts
+                            i = j  # Will be incremented by 2 at end of loop
                             break
                     else:
-                        break  # Stop merging if we hit a real question number
+                        break  # Stop merging if we hit a real question number (> 10)
                 j += 2
 
         if not has_options:
@@ -216,15 +216,25 @@ def parse_single_question(qno, content, page_num):
 
 def clean_text(text):
     """Clean text - remove exam codes and extra info"""
-    # Remove exam source codes
-    text = re.sub(r'[A-Z]{2,}[\sA-Z\.,\-:()]+\d{2}[-./]\d{2}[-./]\d{4}', '', text)
-    text = re.sub(r'[A-Z]{2,}[\sA-Z\.,\-:()]+\d{4}', '', text)
-    text = re.sub(r'\(Shift[-\s]*[IVX]+\)', '', text)
+    # Remove exam source codes (e.g., "UPPCL Executive Assistant 23.11.2022, Shift-II")
+    text = re.sub(r'[A-Z]{2,}[\sA-Za-z\.,\-:()]+\d{2}[-./]\d{2}[-./]\d{4}[,\s]*Shift[-\s]*[IVX]+', '', text)
+    text = re.sub(r'[A-Z]{2,}[\sA-Za-z\.,\-:()]+\d{2}[-./]\d{2}[-./]\d{4}', '', text)
+    text = re.sub(r'[A-Z]{2,}[\sA-Za-z\.,\-:()]+\d{4}', '', text)
+    text = re.sub(r',?\s*Shift[-\s]*[IVX]+', '', text)
     text = re.sub(r'Stage\s+Ist', '', text)
-    
+
+    # Remove YCT page numbers (e.g., "YCT 151 / 592")
+    text = re.sub(r'YCT\s+\d+\s*/\s*\d+', '', text)
+
+    # Remove Bihar PGT TRE patterns
+    text = re.sub(r'Bihar\s+PGT\s+TRE\s+[\d.]+,?\s*\d{2}[-./]\d{2}[-./]\d{4}', '', text)
+
+    # Remove BPSC patterns
+    text = re.sub(r'\d+[a-z]*\s+BPSC\s*\([^)]+\)\s*\d{4}', '', text)
+
     # Remove extra whitespace
     text = ' '.join(text.split())
-    
+
     return text.strip()
 
 def extract_all_questions(pdf_path, start_page=10, num_pages=30):
