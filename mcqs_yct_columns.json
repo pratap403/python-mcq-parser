@@ -1,0 +1,866 @@
+[
+  {
+    "question_no": 1,
+    "question": "Introduction 1. Which datatype is mostly returned by fetchall() method in Python-MySQL connectivity? Select the most common answer:",
+    "options": {
+      "A": "A single list or an empty list, if no more rows are available.",
+      "B": "A list of tuples or an empty list, if no more rows are available.",
+      "C": "A list of dictionaries or an empty list, if no more rows are available.",
+      "D": "A single tuples or an empty tuple, if no more rows are available. , Shift-II"
+    },
+    "answer": "B",
+    "page": 151
+  },
+  {
+    "question_no": 3,
+    "question": "The postfix expression equivalent of the prefix expression * + ab – cd is",
+    "options": {
+      "A": "ab + cd – *",
+      "B": "ab + cd + –*",
+      "C": "ab + cd * –",
+      "D": "More than one of the above (e) None of the above Bihar PGT TRE 2.0, 15.12.2023"
+    },
+    "answer": "A",
+    "page": 151
+  },
+  {
+    "question_no": 4,
+    "question": "Which of the following are computer languages? 1. Cobra 2. Python 3. Squirrel 4. Java Select the correct answer using the codes given below.",
+    "options": {
+      "A": "Only 1 and",
+      "B": "Only 3 and Only 1, 2 and 3",
+      "D": "All of the above",
+      "C": "69th BPSC (Pre) 2023"
+    },
+    "answer": "D",
+    "page": 151
+  },
+  {
+    "question_no": 6,
+    "question": "Which of the following statements is/are false? (i) Compiler generates executable codes. (ii) Assembler can be used to translate high level language code into machine code.",
+    "options": {
+      "A": "Neither (i) nor (ii)",
+      "B": "Only (i)",
+      "C": "(i) and (ii) both",
+      "D": "Only (ii) Bihar PGT TRE 2.0, 15.12.2023 UPPCL Executive Assistant 23.11.2022, Shift-II"
+    },
+    "answer": "D",
+    "page": 151
+  },
+  {
+    "question_no": 7,
+    "question": "Which of the following functions are performed by a user interface? (i) Accepting user input (ii) Displaying output",
+    "options": {
+      "A": "Both (i) and (ii)",
+      "B": "Neither (i) and (ii)",
+      "C": "Only (ii)",
+      "D": "Only (i) UPPCL Executive Assistant 23.11.2022, Shift-II YCT 151 / 592"
+    },
+    "answer": null,
+    "page": 151
+  },
+  {
+    "question_no": 8,
+    "question": "Which of the following codes provides a way through which an individual character can be represented in the form of web pages, text files and other documents, which can be used to represent characters from all languages around the world?",
+    "options": {
+      "A": "Unicode",
+      "B": "Extend ASCII",
+      "C": "ASCII",
+      "D": "Binary UPPCL Executive Assistant 24.11.2022, Shift-II"
+    },
+    "answer": "A",
+    "page": 152
+  },
+  {
+    "question_no": 9,
+    "question": "Which of the following scientists introduced the concept of stored program?",
+    "options": {
+      "A": "Sophie Wilson",
+      "B": "John von Neumann",
+      "C": "Judea Pearl",
+      "D": "Claude Shannon UPPCL Executive Assistant 29.11.2022, Shift-II"
+    },
+    "answer": "B",
+    "page": 152
+  },
+  {
+    "question_no": 10,
+    "question": "What is the output of the following Python print statement? print (hex(127)+oct(132))",
+    "options": {
+      "A": "790203",
+      "B": "Oo2030x790",
+      "C": "203790",
+      "D": "0x7f0o204 UPPCL Assistant Accountant 31.07.2023, Shift-I"
+    },
+    "answer": "D",
+    "page": 152
+  },
+  {
+    "question_no": 11,
+    "question": "Python does NOT have _____ as a basic data type.",
+    "options": {
+      "A": "integer",
+      "B": "list",
+      "C": "complex",
+      "D": "Boolean UPPCL Assistant Accountant 31.07.2023, Shift-I"
+    },
+    "answer": null,
+    "page": 152
+  },
+  {
+    "question_no": 12,
+    "question": "What will the following code result in? import pandas as pd pd.Series ([10,20], index = ['A', 'B', 'C'])",
+    "options": {
+      "A": "ValueError",
+      "B": "NameError",
+      "C": "IndexError",
+      "D": "SyntaxError , Shift-II"
+    },
+    "answer": "A",
+    "page": 152
+  },
+  {
+    "question_no": 13,
+    "question": "What is the output of the following? import pandas as pd S1 = pd.Series ([100, 200, 300]) print (S1)",
+    "options": {
+      "A": "1 100 2 200 3 300 dtype: int64",
+      "B": "0 100 1 200 2 300 dtype: float64",
+      "C": "1 100 2 200 3 300 dtype: float64",
+      "D": "0 100 1 200 2 300 dtype: int 64 , Shift-II"
+    },
+    "answer": "D",
+    "page": 152
+  },
+  {
+    "question_no": 14,
+    "question": "Which of the following will not run the loop statement an infinite number of times in python?",
+    "options": {
+      "A": "while 21%2: print (\"ALWAYS\")",
+      "B": "while 21/ /2: print (\"ALWAYS\")",
+      "C": "while True : Print (\"ALWAYS\")",
+      "D": "while 1 % 1: print (\"ALWAYS\") , Shift-II"
+    },
+    "answer": "D",
+    "page": 153
+  },
+  {
+    "question_no": 15,
+    "question": "A dictionary is declared as D = {10: \"A\", 25 : \"B\", 32: \"C\", 54: \"D\"} Which of the following is incorrect?",
+    "options": {
+      "A": "D [20] = \"E\"",
+      "B": "D [30] + = 20",
+      "C": "D [32] + = '*'",
+      "D": "D ['X'] = 100 , Shift-II"
+    },
+    "answer": "B",
+    "page": 153
+  },
+  {
+    "question_no": 16,
+    "question": "Which of the following is an invalid method/function in a Python dictionary?",
+    "options": {
+      "A": "popitem ()",
+      "B": "remove ()",
+      "C": "get ()",
+      "D": "pop () , Shift-II Programming Languages 153"
+    },
+    "answer": null,
+    "page": 153
+  },
+  {
+    "question_no": 17,
+    "question": "For the following Python statement Msg = ('Good Day') What shall be the data type of Msg?",
+    "options": {
+      "A": "tuple",
+      "B": "list",
+      "C": "Error in statement",
+      "D": "string , Shift-II"
+    },
+    "answer": "D",
+    "page": 153
+  },
+  {
+    "question_no": 18,
+    "question": "For the following Python statement Txt=list ('PEACE') What shall be the output of print (Txt)?",
+    "options": {
+      "A": "['P', 'E', 'A', 'C', 'E']",
+      "B": "[P, E, A, C, E]",
+      "C": "Error in statement",
+      "D": "['PEACE'] , Shift-II"
+    },
+    "answer": "A",
+    "page": 153
+  },
+  {
+    "question_no": 19,
+    "question": "Select the correct output for the following Python code. for i in range (6, 1, -2) : print (end = '*$$')",
+    "options": {
+      "A": "*$$*$$",
+      "B": "*$$ *$$ *$$",
+      "C": "*$$*$$*$$",
+      "D": "*$$ *$$ , Shift-II"
+    },
+    "answer": "C",
+    "page": 153
+  },
+  {
+    "question_no": 21,
+    "question": "What is the output of the following? import numpy as np A = np.array ([[2, 3], [10, 20]]) print (A+1)",
+    "options": {
+      "A": "[[3 4] [10 20]]",
+      "B": "[[3 4] [11 21]]",
+      "C": "[[2 3] [11 21]]",
+      "D": "[[3 3] [11 20]] , Shift-II"
+    },
+    "answer": "B",
+    "page": 154
+  },
+  {
+    "question_no": 22,
+    "question": "Which module is required to be imported in a python program to use mean, median and mode methods?",
+    "options": {
+      "A": "stats",
+      "B": "statistics",
+      "C": "standard",
+      "D": "math , Shift-II"
+    },
+    "answer": "B",
+    "page": 154
+  },
+  {
+    "question_no": 23,
+    "question": "Find the correct output of the following program snippet. import numpy sDATA =[34, 56, 78, 34, 93, 102, 34, 75] print (numpy.median(sDATA))",
+    "options": {
+      "A": "102",
+      "B": "66.5",
+      "C": "67",
+      "D": "65.5 UPPCL Assistant Accountant 31.07.2023, Shift-I"
+    },
+    "answer": "D",
+    "page": 154
+  },
+  {
+    "question_no": 24,
+    "question": "Python is a/an ______ programming language that supports ____ programming.",
+    "options": {
+      "A": "high-level; object-oriented",
+      "B": "machine-level; functional",
+      "C": "low-level; high-level",
+      "D": "assembly-level; object-oriented UPPCL Assistant Accountant 31.07.2023, Shift-I"
+    },
+    "answer": "A",
+    "page": 154
+  },
+  {
+    "question_no": 25,
+    "question": "Find the correct output of the following program snippet. import numpy sDATA = [34, 36, 34, 36] print(numpy. std(sDATA))",
+    "options": {
+      "A": "1",
+      "B": "–2",
+      "C": "2",
+      "D": "0 UPPCL Assistant Accountant 31.07.2023, Shift-I"
+    },
+    "answer": "A",
+    "page": 154
+  },
+  {
+    "question_no": 26,
+    "question": "Identify whether the given statements are true or false. (i) The bootstrap CSS framework is used to create a responsive design. (ii) The CSS class selectors are used to specify a group of elements. (iii) The 'Internal' CSS can be added by using the <style> element in the <head> section.",
+    "options": {
+      "A": "i-True, ii-True, iii-True",
+      "B": "i-False, ii-True, iii-True",
+      "C": "i-False, ii-True, iii-False",
+      "D": "i-True, ii-False, iii-True UPPCL TG-2, 8.11.2023, Shift-II"
+    },
+    "answer": "A",
+    "page": 154
+  },
+  {
+    "question_no": 1,
+    "question": "A CSS framework is used for advanced visual elements. 2. A CSS framework helps in quick generation of a UI. 3. Bootstrap is a CSS framework.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "0 UPPCL Assistant Accountant 31.07.2023, Shift-I"
+    },
+    "answer": "B",
+    "page": 155
+  },
+  {
+    "question_no": 29,
+    "question": "Identify whether the given statements are true or false. (i) In Python programming, tuple items are ordered. (ii) In Python programming, we cannot change, add or remove items after the tuple has been created. (iii) In Python programming, tuple does not allow duplicate values.",
+    "options": {
+      "A": "i-True, ii-False, iii-True",
+      "B": "i-False, ii-True, iii-False",
+      "C": "i-False, ii-True, iii-True",
+      "D": "i-True, ii-True, iii-False UPPCL TG-2, 8.11.2023, Shift-I"
+    },
+    "answer": "D",
+    "page": 155
+  },
+  {
+    "question_no": 30,
+    "question": "The database stores information in ______.",
+    "options": {
+      "A": "rows and column",
+      "B": "blocks",
+      "C": "tracks and sectors",
+      "D": "index ARO Alld. , Shift-II Programming Languages 155"
+    },
+    "answer": null,
+    "page": 155
+  },
+  {
+    "question_no": 31,
+    "question": "Identify whether the following statements are true or false. i) In the Python language, tuples are data type that belongs to the sequence data type category. ii) Sequence data types are used to store data in containers in the Python computer language. iii) In Python, strings are arrays of bytes representing Unicode characters.",
+    "options": {
+      "A": "i-True, ii-True, iii-True",
+      "B": "i-True, ii-False, iii-True",
+      "C": "i-False, ii-True, iii-True",
+      "D": "i-False, ii-True, iii- False UPPCL TG-2, 8.11.2023, Shift-I UPPCL Assistant Accountant 31.07.2023, Shift-II"
+    },
+    "answer": "A",
+    "page": 155
+  },
+  {
+    "question_no": 32,
+    "question": "Python allows using the popular data interchange format called JSON. What does JSON stand for?",
+    "options": {
+      "A": "Java Server Open Notation",
+      "B": "Java Server Object Notation",
+      "C": "JavaScript Object Notation",
+      "D": "JavaScript Open Navigation UPPCL Assistant Accountant 22.06.2023, Shift-II"
+    },
+    "answer": "C",
+    "page": 155
+  },
+  {
+    "question_no": 33,
+    "question": "What is an algorithm NOT?",
+    "options": {
+      "A": "A graphical representation of programming logic",
+      "B": "A step-by-step procedure to solve the problem",
+      "C": "A pseudo code the program",
+      "D": "Easy to debug UPPCL Asst. Account. 22.06.2023, Shift-I ARO Alld. , Shift-I ARO Alld. , Shift-II"
+    },
+    "answer": "A",
+    "page": 155
+  },
+  {
+    "question_no": 35,
+    "question": "With reference to the sequence data types of Python, ____ is a sequence of items separated by commas and items are enclosed in parenthesis().",
+    "options": {
+      "A": "Tuple",
+      "B": "String",
+      "C": "List",
+      "D": "Flow UPRVUNL Asst. Acct. 15.05.2022"
+    },
+    "answer": "A",
+    "page": 156
+  },
+  {
+    "question_no": 36,
+    "question": "Which among the following is NOT an arithmetic operator in python?",
+    "options": {
+      "A": "not in",
+      "B": "Floor division",
+      "C": "Exponent",
+      "D": "Modulus UPRVUNL Asst. Acct. 15.05.2022"
+    },
+    "answer": "A",
+    "page": 156
+  },
+  {
+    "question_no": 37,
+    "question": "In any language sequential flow of the statement is default, A part from sequential there are types of flow of execution available which are? A. Conditional B. Looping",
+    "options": {
+      "A": "Only A",
+      "B": "Only B",
+      "C": "Neither A nor B",
+      "D": "Both A and B UPRVUNL Asst. Acct. 15.05.2022"
+    },
+    "answer": "D",
+    "page": 156
+  },
+  {
+    "question_no": 38,
+    "question": "The language accepted by Push down Automaton:",
+    "options": {
+      "A": "Recursive Language",
+      "B": "Context free language",
+      "C": "Linearly bounded language",
+      "D": "All of the mentioned Bihar STET Exam Date : 12.09.2023 Programming Languages 156"
+    },
+    "answer": null,
+    "page": 156
+  },
+  {
+    "question_no": 39,
+    "question": "With reference to file processing in python, identify the correct order of file operation? A. Read or write- Performing operation B. Open a file C. Close a file",
+    "options": {
+      "A": "C, A, B",
+      "B": "B, C, A",
+      "C": "A, B, C",
+      "D": "B, A, C UPRVUNL Asst. Acct. 15.05.2022"
+    },
+    "answer": "D",
+    "page": 156
+  },
+  {
+    "question_no": 40,
+    "question": "Which of the following refers to an object hiding its attributes behind its operation?",
+    "options": {
+      "A": "Polymorphism",
+      "B": "Encapsulation",
+      "C": "Inheritance",
+      "D": "Class ( Exam date 16.04.2022)"
+    },
+    "answer": "B",
+    "page": 156
+  },
+  {
+    "question_no": 41,
+    "question": "What is the term for a variable that references an instance of a class?",
+    "options": {
+      "A": "Property",
+      "B": "Method",
+      "C": "Object",
+      "D": "Constructor Bihar STET Exam Date : 12.09.2023"
+    },
+    "answer": "C",
+    "page": 156
+  },
+  {
+    "question_no": 42,
+    "question": "What is the primary purpose of an interface in OOP?",
+    "options": {
+      "A": "To provide a blueprint for creating objects",
+      "B": "To define a set of methods that must be implemented by implementing classes",
+      "C": "To define constructors for classes",
+      "D": "To create static methods Bihar STET Exam Date : 12.09.2023"
+    },
+    "answer": "B",
+    "page": 156
+  },
+  {
+    "question_no": 44,
+    "question": "What is the term for defining multiple methods in a class with the same name but different parameters?",
+    "options": {
+      "A": "Overriding",
+      "B": "Overloading",
+      "C": "Inheriting",
+      "D": "Inheritance Bihar PGT TRE 2.0, 15.12.2023 Bihar STET Exam Date : 12.09.2023"
+    },
+    "answer": "B",
+    "page": 157
+  },
+  {
+    "question_no": 45,
+    "question": "Choose the correct statement about inline function in C+ +.",
+    "options": {
+      "A": "It speeds up the execution.",
+      "B": "It slows down the execution.",
+      "C": "It decreases the code size.",
+      "D": "More than one of the above (e) None of the above Bihar PGT TRE 2.0, 15.12.2023"
+    },
+    "answer": "D",
+    "page": 157
+  },
+  {
+    "question_no": 46,
+    "question": "What is the main purpose of using namespaces in programming?",
+    "options": {
+      "A": "To provide data encapsulation",
+      "B": "To organize code into logical groups",
+      "C": "To define abstract classes",
+      "D": "To handle exceptions Bihar STET Exam Date : 12.09.2023"
+    },
+    "answer": "B",
+    "page": 157
+  },
+  {
+    "question_no": 48,
+    "question": "What is the main advantage of using abstract classes over interfaces?",
+    "options": {
+      "A": "Abstract classes can have multiple inheritance, unlike interfaces",
+      "B": "Interfaces can have constructors, while abstract classes cannot",
+      "C": "Abstract classes can provide default implementations of methods",
+      "D": "Interfaces allow for private access modifiers, unlike abstract classes Bihar STET Exam Date : 12.09.2023"
+    },
+    "answer": "C",
+    "page": 157
+  },
+  {
+    "question_no": 49,
+    "question": "What is the term for a condition that occurs during program execution that disrupts the normal flow of instructions?",
+    "options": {
+      "A": "Abstraction",
+      "B": "Inheritance",
+      "C": "Exception",
+      "D": "Encapsulation Bihar STET Exam Date : 12.09.2023"
+    },
+    "answer": "C",
+    "page": 157
+  },
+  {
+    "question_no": 50,
+    "question": "Modern computers follow a set of instructions to perform any task. These instructions can be better known as.",
+    "options": {
+      "A": "Commands",
+      "B": "Programs",
+      "C": "Language",
+      "D": "Guidelines Bihar PGT TRE 2.0, 15.12.2023"
+    },
+    "answer": "B",
+    "page": 157
+  },
+  {
+    "question_no": 52,
+    "question": "A set of instructions is called",
+    "options": {
+      "A": "Script",
+      "B": "Extension",
+      "C": "Flowchart",
+      "D": "Program UPPCL Asst. Accountant Eaxm-10.02.2018 UPPCL Asst. Accountant Eaxm-09.02.2018"
+    },
+    "answer": "D",
+    "page": 158
+  },
+  {
+    "question_no": 53,
+    "question": "The language used for development various games is",
+    "options": {
+      "A": "C",
+      "B": "C++",
+      "C": "Java",
+      "D": "SQL ARO Alld.,Shift-I"
+    },
+    "answer": null,
+    "page": 158
+  },
+  {
+    "question_no": 54,
+    "question": "Which of the following statements is true about the new and malloc? I. The ‘new’ is a type of operator while ‘malloc’ is a kind of function. II. The ‘new’ invokes a constructor, whereas ‘malloc’ does not invoke the constructor./ III. The ‘malloc’ returns void pointer and also needed to typecast whereas ‘new’ returns required pointer.",
+    "options": {
+      "A": "Only I",
+      "B": "Both I and II",
+      "C": "Both II and III",
+      "D": "More than one of the above (e) None of the above Bihar"
+    },
+    "answer": "D",
+    "page": 158
+  },
+  {
+    "question_no": 56,
+    "question": "How do structures and classes in C++ differ?",
+    "options": {
+      "A": "In structures, members are private by default whereas in classes, they are public by default.",
+      "B": "In structures, members are public by default whereas in classes, they are private by default.",
+      "C": "Structures cannot have private members whereas classes can have.",
+      "D": "More than one of the above (e) None of the above Bihar"
+    },
+    "answer": "B",
+    "page": 158
+  },
+  {
+    "question_no": 57,
+    "question": "Which of the following should have a same name as class name?",
+    "options": {
+      "A": "Variable",
+      "B": "Method",
+      "C": "Constructor",
+      "D": "Header File Bihar PGT TRE 2.0, 15.12.2023 UPSSSC JE Non-Tech. 2016 (Exam Date 19.12.2021)"
+    },
+    "answer": "C",
+    "page": 158
+  },
+  {
+    "question_no": 58,
+    "question": "Which of the following can be overloaded?",
+    "options": {
+      "A": "Variable",
+      "B": "Objects",
+      "C": "Class",
+      "D": "Function UPSSSC JE Non-Tech. 2016 (Exam Date 19.12.2021)"
+    },
+    "answer": "D",
+    "page": 158
+  },
+  {
+    "question_no": 59,
+    "question": "Consider the following statements and select the correct answer from the code given below. .Net 1. Framework is developed by Microsoft. 2. Java is an open source technology developed by sun Microsystems. Statement :",
+    "options": {
+      "A": "Only (1) True",
+      "B": "Only (2) True",
+      "C": "Both (1) and (2) True",
+      "D": "None MPPSC (Pre) G.S. 2008 YCT 158 / 592"
+    },
+    "answer": null,
+    "page": 158
+  },
+  {
+    "question_no": 60,
+    "question": "A sort algorithm works on the following principle. •••• Find the smallest item in the list, and exchange it with the left-most unsorted element, •••• Repeat the process form the first unsorted element. Which of the following sorting algorithms does it correspond to?",
+    "options": {
+      "A": "Quick sort",
+      "B": "Merge sort",
+      "C": "Selection sort",
+      "D": "Insertion sort"
+    },
+    "answer": "C",
+    "page": 159
+  },
+  {
+    "question_no": 61,
+    "question": "Which of the following statements is used to make a selection from more than two choices?",
+    "options": {
+      "A": "if-else",
+      "B": "switch",
+      "C": "else-if",
+      "D": "None of these (UPPCL RO/)"
+    },
+    "answer": "B",
+    "page": 159
+  },
+  {
+    "question_no": 62,
+    "question": "Which of the following data types contains decimal values?",
+    "options": {
+      "A": "Date",
+      "B": "Character",
+      "C": "Float",
+      "D": "Integer UPPCL Office Assistant Account 28-8-2018"
+    },
+    "answer": "C",
+    "page": 159
+  },
+  {
+    "question_no": 63,
+    "question": "_______ Is a collection of instructions which is a specific task to be performed by the computer.",
+    "options": {
+      "A": "Data",
+      "B": "Software",
+      "C": "specific task. Software is a collection of instructions that enables a user to instruct a computer. Its hardware and other components to perform a specific task. Programming Languages 159",
+      "D": "Processing Cane Supervisor (31-08-2019) A Computer program usually performs a Ans:"
+    },
+    "answer": null,
+    "page": 159
+  },
+  {
+    "question_no": 65,
+    "question": "With respect to linked lists and arrays, which of the following statements is INCORRECT?",
+    "options": {
+      "A": "Linked list is slower in add and remove, but faster in get",
+      "B": "Array allocates memory at the time of declaring the array, while linked list allocates memory at the time of adding elements to the linked list.",
+      "C": "Elements can be added to linked lists indefinitely, while an array will eventually get filled or will have to be resized.",
+      "D": "Arrays allow random access to the elements contained within them, a linked list only allows sequential access to its elements."
+    },
+    "answer": "A",
+    "page": 159
+  },
+  {
+    "question_no": 66,
+    "question": "Which of the following enables us to pass data between a program and a class?",
+    "options": {
+      "A": "Functions",
+      "B": "Properties",
+      "C": "Procedures",
+      "D": "Variables UPPCL Assist. Acct. 2016 (Exam date 20.11.2016 )"
+    },
+    "answer": "B",
+    "page": 159
+  },
+  {
+    "question_no": 67,
+    "question": "What are the list of coded instructions called",
+    "options": {
+      "A": "Algorithm",
+      "B": "Computer Language",
+      "C": "Computer Program",
+      "D": "None of These Bihar PGT TRE 2.0, 15.12.2023 SSC MTS 9-10-2017"
+    },
+    "answer": "C",
+    "page": 159
+  },
+  {
+    "question_no": 69,
+    "question": "What name is given to a program in execution?",
+    "options": {
+      "A": "Process",
+      "B": "Data Load",
+      "C": "Program",
+      "D": "Mutex UPSSSC JE Non-Tech. 2016 (Exam Date 19.12.2021)"
+    },
+    "answer": "A",
+    "page": 160
+  },
+  {
+    "question_no": 70,
+    "question": "_______ is a program that is being executed.",
+    "options": {
+      "A": "Process",
+      "B": "Knowledge",
+      "C": "Information",
+      "D": "Data (Morning)"
+    },
+    "answer": "A",
+    "page": 160
+  },
+  {
+    "question_no": 71,
+    "question": "The set of information that instructs a computer is called–",
+    "options": {
+      "A": "Storage",
+      "B": "Memory",
+      "C": "Logic",
+      "D": "Program R.R.B. Kolkata (Asst. Loco Pilot) Exam, 2008"
+    },
+    "answer": "D",
+    "page": 160
+  },
+  {
+    "question_no": 72,
+    "question": "______ is a framework that you can use to write a program. It provides a set of classes and functions that helps you avoid writing all the low-level code to perform specific actions.",
+    "options": {
+      "A": "Electronic Data Interchange",
+      "B": "Application Programming Interface",
+      "C": "Enterprise Resource Planning (ERP) systems",
+      "D": "Client Server Architecture"
+    },
+    "answer": "B",
+    "page": 160
+  },
+  {
+    "question_no": 73,
+    "question": "What is the set of instructions forming a program which is executed by a computer called?",
+    "options": {
+      "A": "Syntax",
+      "B": "Code",
+      "C": "Error",
+      "D": "Language SSC JE Mechanical - 27/09/2019 Programming Languages 160"
+    },
+    "answer": null,
+    "page": 160
+  },
+  {
+    "question_no": 74,
+    "question": "Most of the errors attributed to the computer are due to what?",
+    "options": {
+      "A": "Program Error",
+      "B": "Failure of Hardware",
+      "C": "Fault in media",
+      "D": "Error in data entry Exam, S.S.C."
+    },
+    "answer": "A",
+    "page": 160
+  },
+  {
+    "question_no": 75,
+    "question": "In programming languages, one set of names can be kept different from other sets using",
+    "options": {
+      "A": "Identifiers",
+      "B": "Namespaces",
+      "C": "Packages",
+      "D": "Directories"
+    },
+    "answer": "B",
+    "page": 160
+  },
+  {
+    "question_no": 76,
+    "question": "A/An ______ is a step-by -step procedure which defines a set of instructions to be executed in certain order to get the desired output.",
+    "options": {
+      "A": "order",
+      "B": "protocol",
+      "C": "sequence",
+      "D": "algorithm UPPCL TG-2, 8.11.2023, Shift-I UPPCL Assistant Accountant 31.07.2023, Shift-II ARO Alld. , Shift-II"
+    },
+    "answer": "D",
+    "page": 160
+  },
+  {
+    "question_no": 77,
+    "question": "An effective method expressed as a finite list of well-defined instructions for calculating a function is called:",
+    "options": {
+      "A": "an algorithm",
+      "B": "a data structure",
+      "C": "a compiler",
+      "D": "a program"
+    },
+    "answer": "A",
+    "page": 160
+  },
+  {
+    "question_no": 79,
+    "question": "Which of the following approaching is used by C++?",
+    "options": {
+      "A": "Left-right",
+      "B": "Top-down",
+      "C": "Bottom-up",
+      "D": "More than one of the above (e) None of the above Bihar"
+    },
+    "answer": "C",
+    "page": 161
+  },
+  {
+    "question_no": 80,
+    "question": "Which of the following properties of an algorithm ensures that each step of the algorithm is properly defined and the actions to be performed are clearly specified?",
+    "options": {
+      "A": "finiteness",
+      "B": "Effectiveness",
+      "C": "Input and Output",
+      "D": "Definiteness (Exam Date 29.01.2019)"
+    },
+    "answer": "D",
+    "page": 161
+  },
+  {
+    "question_no": 81,
+    "question": "Which of the following errors is called 'Linker Error'?",
+    "options": {
+      "A": "The program simply does not do what you want it to do.",
+      "B": "It indicates something that must be fixed before the code can be compiled.",
+      "C": "There is something wrong, but not something that will prevent the code from being compiled",
+      "D": "Code does not have syntax error, but that some function or library that is needed cannot be found."
+    },
+    "answer": "D",
+    "page": 161
+  },
+  {
+    "question_no": 83,
+    "question": "An activity diagram models the ____ that an object performs and the order in which it performs them.",
+    "options": {
+      "A": "actions",
+      "B": "attributes",
+      "C": "states",
+      "D": "state transitions"
+    },
+    "answer": "A",
+    "page": 161
+  },
+  {
+    "question_no": 84,
+    "question": "Which statement is wrong related with flowchart?",
+    "options": {
+      "A": "This is the graphic form of an algorithm.",
+      "B": "It uses diamond - shaped symbols for the detection of restricted stories.",
+      "C": "It is a option of Data Flow Diagram (DFD).",
+      "D": "It represents the sequence of the algorithm's execution. UP Police (Computer Operator)-2016"
+    },
+    "answer": "A",
+    "page": 161
+  },
+  {
+    "question_no": 85,
+    "question": "Computation logic can be represented visually by using",
+    "options": {
+      "A": "Visual Basic",
+      "B": "Lompro",
+      "C": "Flow chart",
+      "D": "VI editor UP Police (Computer Operator)-2013"
+    },
+    "answer": "C",
+    "page": 161
+  }
+]
